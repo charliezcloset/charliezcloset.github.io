@@ -1,0 +1,309 @@
+html {
+  margin: 0px;
+}
+
+body {
+	font-family: arial;
+}
+
+*:before, *:after {
+   box-sizing: border-box;
+}
+
+.navbar-default {
+	background-color: black;
+	padding: 15px;
+	margin-bottom: 0px;
+  border: none;
+  border-radius: 0px;
+}
+
+.navbar-header {
+  height: 80px;
+}
+
+.navbar-brand {
+	padding: 0px 15px;
+}
+
+.fullscreenwidth{
+  width: 100%;
+  margin: 0px;
+  border: 0px;
+}
+
+.collapse li {
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #A8996E;
+  line-height: 40px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.bg-row {
+  background-color: lightgrey;
+  height: 450px;
+}
+
+.circle {
+  padding: 0px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.circle img {
+  border-radius: 50%
+}
+
+.flex-middle {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 480px){
+ .flex-row {
+    display: flex;
+    }
+  }
+  
+.text-circle {
+  padding: 15px;
+  text-align: center;
+}
+
+.padding-fix {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.videobox {
+  height: 600px;
+  background-color: lightgrey;
+  overflow:hidden;
+  height: 600px;
+  padding: 0px;
+}
+
+.cirle-row {
+    width:50%;
+}
+
+.circle-text:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #4679BD; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.circle-text div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+
+h2{
+  font-size: 35px;
+}
+
+p {
+	font-size: 20px;
+  margin-top: 15px;
+}
+
+.product-column {
+  margin-left: 50px;
+}
+
+/*.col-md-12 {
+	height: 600px;
+	background-color: lightgrey;
+  padding: 0px;
+}*/
+
+.img-product {
+	width: 100%;
+	height: 100%
+}
+
+.VerticalSlider{
+  height: auto;
+  padding: 0px;
+}
+
+.RightContainer {
+    height: 90%;
+    position: relative;
+    width: 95%;
+    overflow: hidden;
+}
+
+.Right {
+  position: absolute;
+  top: 0;
+  transition: top 2s;
+  transition-timing-function: ease-in-out;
+  will-change: top;
+}
+
+.RightImage {
+  width: 100%;
+}
+
+.info-row {
+  margin: 10px 50px;
+  line-height: 15px;
+}
+
+h4 {
+    color: #A8996E;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.socialmediabutton img {
+  width: 10%;
+  height: 10%;
+}
+
+.footernote p {
+  font-size: 15px;
+}
+
+.introphoto > img {
+  width: 100%;
+  height: 100%;
+  background: no-repeat center center;
+}
+
+.intro-paragraph {
+  font-size: 17px;
+  margin: 50px;
+  height: 100%;
+}
+
+.introbox {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+   .img-circle {margin: 0;}
+   .intro-box {margin: 0;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 480px) {
+
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: #fffaf0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1.5px 1.5px #faebd7;
+}
+
+.copyrightline {
+  text-align: center;
+}
+
+.form-group {
+ width:90%;
+  max-width:500px;
+  margin:10px auto;
+}
+
+input, textarea {
+  width:100%;
+  margin-bottom:10px;
+  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:7px 7px;
+}
+
+#eml {
+  width:100%;
+}
+
+button {
+  width: 120px;
+  float:right;
+  margin-left:15px;
+  border-radius:3px;
+  border: solid 1px #ccc;
+  padding:4px 7px;
+}
+
+button:hover {
+  background-color:lightgrey;
+}
+
+select {
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+}
+
+.productinfo {text-align: center;}
+
+.product1photo, .product2photo, .product3photo  {
+  width:100%; 
+  height:300px; 
+  display:block;
+}
+
+
+.product1photo img,
+.product2photo img,
+.product3photo img {
+  width:auto; 
+  height:300px;
+  display:block;
+  text-align:center;
+  margin:0 auto;
+  -webkit-transition: 2s; /* Safari */
+  -moz-transition: 2s; /* firefox */
+  transition: 2s;
+}
+
+.product-display {
+  margin-bottom: 100px;
+}
+
+
+.scale-up {transform:scale(1.15)}
+
+
+.rotate {transform: rotateY(360deg);}
+
+
+
+
+
+
+
+
+
